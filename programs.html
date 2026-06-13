@@ -1,0 +1,672 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Programs &amp; Projects | GAF</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="assets/js/main.js"></script>
+</head>
+
+<body class="text-on-surface">
+        <!-- TopNavBar -->
+            <!-- TopNavBar -->
+        <!-- TopNavBar -->
+    <header class="bg-surface-bright dark:bg-inverse-surface w-full sticky top-0 z-50 shadow-md dark:shadow-none transition-all duration-300 ease-in-out">
+        <div class="flex justify-between items-center px-4 md:px-margin-desktop py-4 max-w-container-max mx-auto">
+            <a href="index.html" class="inline-flex items-center"><img src="assets/images/GAF-logo.png" alt="Girls Advancement Foundation logo" class="h-16 w-auto" /></a>
+
+            <!-- Desktop Nav -->
+            <nav class="hidden md:flex items-center gap-gutter">
+                <div class="nav-item group">
+                    <a class="text-on-surface-variant hover:text-primary font-body-md text-body-md flex items-center gap-1 transition-colors" href="index.html">
+                        Home <span class="material-symbols-outlined text-sm">expand_more</span>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="board.html" class="dropdown-item">Board members</a>
+                        <a href="team.html" class="dropdown-item">Team</a>
+                        <a href="staff-portal.html" class="dropdown-item">Staff Portal</a>
+                        <a href="faqs.html" class="dropdown-item">Career/Volunteer FAQs</a>
+                        <a href="contact.html" class="dropdown-item">Contact Us</a>
+                    </div>
+                </div>
+
+                <div class="nav-item group">
+                    <a class="text-on-surface-variant hover:text-primary font-body-md text-body-md flex items-center gap-1 transition-colors" href="about.html">
+                        About Us <span class="material-symbols-outlined text-sm">expand_more</span>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="who-we-are.html" class="dropdown-item">Who we are</a>
+                        <a href="vision.html" class="dropdown-item">Vision</a>
+                        <a href="mission.html" class="dropdown-item">Mission</a>
+                        <a href="values.html" class="dropdown-item">Core values</a>                        <a href="partners.html" class="dropdown-item">Partners</a>
+                    </div>
+                </div>
+
+                <div class="nav-item">
+                    <a class="text-on-surface-variant hover:text-primary font-body-md text-body-md transition-colors" href="where-we-work.html">Where We Work</a>
+                </div>
+
+                <div class="nav-item group">
+                    <a class="text-on-surface-variant hover:text-primary font-body-md text-body-md flex items-center gap-1 transition-colors" href="how-we-work.html">
+                        How We Work <span class="material-symbols-outlined text-sm">expand_more</span>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="areas-we-work.html" class="dropdown-item">Areas we work</a>
+                        <a href="technical-area.html" class="dropdown-item">Technical Area</a>
+                        <a href="approach.html" class="dropdown-item">Approach</a>
+                        <div class="has-sub-dropdown">
+                            <a href="projects.html" class="dropdown-item flex justify-between items-center">
+                                Project <span class="material-symbols-outlined text-sm">chevron_right</span>
+                            </a>
+                            <div class="sub-dropdown-menu">
+                                <a href="current-projects.html" class="dropdown-item">Current Project</a>
+                                <a href="past-projects.html" class="dropdown-item">Past Projects</a>
+                            </div>
+                        </div>
+                        <a href="strategic-plan.html" class="dropdown-item">Our Strategic Plan</a>
+                        <a href="impact.html" class="dropdown-item">Impact</a>
+                        <a href="advocacy.html" class="dropdown-item">Advocacy</a>
+                    </div>
+                </div>
+
+                <div class="nav-item group">
+                    <a class="text-on-surface-variant hover:text-primary font-body-md text-body-md flex items-center gap-1 transition-colors" href="media.html">
+                        Media Centre <span class="material-symbols-outlined text-sm">expand_more</span>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="news.html" class="dropdown-item">News</a>
+                        <a href="newsletter.html" class="dropdown-item">News Letter</a>
+                        <a href="stories.html" class="dropdown-item">Success Stories &amp; Achievers:</a>
+                        <a href="press.html" class="dropdown-item">Press Release</a>
+                        <a href="social.html" class="dropdown-item">Social Media Integration</a>
+                        <a href="gallery.html" class="dropdown-item">Gallery</a>
+                    </div>
+                </div>
+
+                <div class="nav-item group">
+                    <a class="text-on-surface-variant hover:text-primary font-body-md text-body-md flex items-center gap-1 transition-colors" href="resources.html">
+                        Resources <span class="material-symbols-outlined text-sm">expand_more</span>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="reports.html" class="dropdown-item">Reports</a>
+                        <a href="infographics.html" class="dropdown-item">Infographics</a>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="flex items-center gap-4">
+                <a href="donate.html" class="bg-primary text-on-primary px-6 py-2 rounded-full font-label-md text-label-md hover:opacity-90 transition-all shadow-sm text-center">Donate</a>
+                <!-- Mobile Menu Button -->
+                <button id="menu-btn" class="md:hidden text-primary p-2" aria-label="Open navigation menu">
+                    <span class="material-symbols-outlined text-3xl">menu</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Overlay -->
+        <div id="mobile-menu" class="fixed inset-0 bg-white z-[100] md:hidden mobile-nav-transition flex flex-col p-6 overflow-y-auto">
+            <div class="flex justify-between items-center mb-6">
+                <a href="index.html" class="inline-flex items-center"><img src="assets/images/GAF-logo.png" alt="Girls Advancement Foundation logo" class="h-16 w-auto" /></a>
+                <button id="close-btn" class="text-primary p-2" aria-label="Close navigation menu">
+                    <span class="material-symbols-outlined text-3xl">close</span>
+                </button>
+            </div>
+            <nav class="flex flex-col">
+                <div class="mobile-section">
+                    <div class="flex items-center border-b border-outline-variant/20">
+                        <a class="text-xl font-bold text-on-surface flex-1 py-3" href="index.html">Home</a>
+                        <button class="mobile-toggle p-2 text-primary" type="button" aria-label="Expand Home menu">
+                            <span class="material-symbols-outlined mobile-icon">expand_more</span>
+                        </button>
+                    </div>
+                    <div class="mobile-sub">
+                        <a class="text-on-surface-variant py-1" href="board.html">Board members</a>
+                        <a class="text-on-surface-variant py-1" href="team.html">Team</a>
+                        <a class="text-on-surface-variant py-1" href="staff-portal.html">Staff Portal</a>
+                        <a class="text-on-surface-variant py-1" href="faqs.html">Career/Volunteer FAQs</a>
+                        <a class="text-on-surface-variant py-1" href="contact.html">Contact Us</a>
+                    </div>
+                </div>
+                <div class="mobile-section">
+                    <div class="flex items-center border-b border-outline-variant/20">
+                        <a class="text-xl font-bold text-on-surface flex-1 py-3" href="about.html">About Us</a>
+                        <button class="mobile-toggle p-2 text-primary" type="button" aria-label="Expand About Us menu">
+                            <span class="material-symbols-outlined mobile-icon">expand_more</span>
+                        </button>
+                    </div>
+                    <div class="mobile-sub">
+                        <a class="text-on-surface-variant py-1" href="who-we-are.html">Who we are</a>
+                        <a class="text-on-surface-variant py-1" href="vision.html">Vision</a>
+                        <a class="text-on-surface-variant py-1" href="mission.html">Mission</a>
+                        <a class="text-on-surface-variant py-1" href="values.html">Core values</a>                        <a class="text-on-surface-variant py-1" href="partners.html">Partners</a>
+                    </div>
+                </div>
+                <a class="flex items-center text-xl font-bold text-on-surface py-3 border-b border-outline-variant/20" href="where-we-work.html">Where We Work</a>
+                <div class="mobile-section">
+                    <div class="flex items-center border-b border-outline-variant/20">
+                        <a class="text-xl font-bold text-on-surface flex-1 py-3" href="how-we-work.html">How We Work</a>
+                        <button class="mobile-toggle p-2 text-primary" type="button" aria-label="Expand How We Work menu">
+                            <span class="material-symbols-outlined mobile-icon">expand_more</span>
+                        </button>
+                    </div>
+                    <div class="mobile-sub">
+                        <a class="text-on-surface-variant py-1" href="areas-we-work.html">Areas we work</a>
+                        <a class="text-on-surface-variant py-1" href="technical-area.html">Technical Area</a>
+                        <a class="text-on-surface-variant py-1" href="approach.html">Approach</a>
+                        <div class="mobile-section">
+                            <div class="flex items-center">
+                                <a class="text-on-surface-variant flex-1 py-1" href="projects.html">Project</a>
+                                <button class="mobile-toggle p-1 text-primary" type="button" aria-label="Expand Project menu">
+                                    <span class="material-symbols-outlined mobile-icon text-sm">expand_more</span>
+                                </button>
+                            </div>
+                            <div class="mobile-sub" style="border-left-color:rgba(67,16,107,0.1);">
+                                <a class="text-on-surface-variant/80 py-1" href="current-projects.html">Current Project</a>
+                                <a class="text-on-surface-variant/80 py-1" href="past-projects.html">Past Projects</a>
+                            </div>
+                        </div>
+                        <a class="text-on-surface-variant py-1" href="strategic-plan.html">Our Strategic Plan</a>
+                        <a class="text-on-surface-variant py-1" href="impact.html">Impact</a>
+                        <a class="text-on-surface-variant py-1" href="advocacy.html">Advocacy</a>
+                    </div>
+                </div>
+                <div class="mobile-section">
+                    <div class="flex items-center border-b border-outline-variant/20">
+                        <a class="text-xl font-bold text-on-surface flex-1 py-3" href="media.html">Media Centre</a>
+                        <button class="mobile-toggle p-2 text-primary" type="button" aria-label="Expand Media Centre menu">
+                            <span class="material-symbols-outlined mobile-icon">expand_more</span>
+                        </button>
+                    </div>
+                    <div class="mobile-sub">
+                        <a class="text-on-surface-variant py-1" href="news.html">News</a>
+                        <a class="text-on-surface-variant py-1" href="newsletter.html">News Letter</a>
+                        <a class="text-on-surface-variant py-1" href="stories.html">Success Stories &amp; Achievers:</a>
+                        <a class="text-on-surface-variant py-1" href="press.html">Press Release</a>
+                        <a class="text-on-surface-variant py-1" href="social.html">Social Media</a>
+                        <a class="text-on-surface-variant py-1" href="gallery.html">Gallery</a>
+                    </div>
+                </div>
+                <div class="mobile-section">
+                    <div class="flex items-center border-b border-outline-variant/20">
+                        <a class="text-xl font-bold text-on-surface flex-1 py-3" href="resources.html">Resources</a>
+                        <button class="mobile-toggle p-2 text-primary" type="button" aria-label="Expand Resources menu">
+                            <span class="material-symbols-outlined mobile-icon">expand_more</span>
+                        </button>
+                    </div>
+                    <div class="mobile-sub">
+                        <a class="text-on-surface-variant py-1" href="reports.html">Reports</a>
+                        <a class="text-on-surface-variant py-1" href="infographics.html">Infographics</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="mt-8 pb-8">
+                <a href="donate.html" class="w-full bg-primary text-on-primary py-4 rounded-xl font-bold text-lg inline-block text-center">
+                    Donate Now
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- Page Header -->
+        <!-- TopNavBar -->
+        <!-- TopNavBar -->
+    <header class="bg-surface-bright dark:bg-inverse-surface w-full sticky top-0 z-50 shadow-md dark:shadow-none transition-all duration-300 ease-in-out">
+        <div class="flex justify-between items-center px-4 md:px-margin-desktop py-4 max-w-container-max mx-auto">
+            <a href="index.html" class="inline-flex items-center"><img src="assets/images/GAF-logo.png" alt="Girls Advancement Foundation logo" class="h-16 w-auto" /></a>
+
+            <!-- Desktop Nav -->
+            <nav class="hidden md:flex items-center gap-gutter">
+                <div class="nav-item group">
+                    <a class="text-on-surface-variant hover:text-primary font-body-md text-body-md flex items-center gap-1 transition-colors" href="index.html">
+                        Home <span class="material-symbols-outlined text-sm">expand_more</span>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="board.html" class="dropdown-item">Board members</a>
+                        <a href="team.html" class="dropdown-item">Team</a>
+                        <a href="staff-portal.html" class="dropdown-item">Staff Portal</a>
+                        <a href="faqs.html" class="dropdown-item">Career/Volunteer FAQs</a>
+                        <a href="contact.html" class="dropdown-item">Contact Us</a>
+                    </div>
+                </div>
+
+                <div class="nav-item group">
+                    <a class="text-on-surface-variant hover:text-primary font-body-md text-body-md flex items-center gap-1 transition-colors" href="about.html">
+                        About Us <span class="material-symbols-outlined text-sm">expand_more</span>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="who-we-are.html" class="dropdown-item">Who we are</a>
+                        <a href="vision.html" class="dropdown-item">Vision</a>
+                        <a href="mission.html" class="dropdown-item">Mission</a>
+                        <a href="values.html" class="dropdown-item">Core values</a>                        <a href="partners.html" class="dropdown-item">Partners</a>
+                    </div>
+                </div>
+
+                <div class="nav-item">
+                    <a class="text-on-surface-variant hover:text-primary font-body-md text-body-md transition-colors" href="where-we-work.html">Where We Work</a>
+                </div>
+
+                <div class="nav-item group">
+                    <a class="text-on-surface-variant hover:text-primary font-body-md text-body-md flex items-center gap-1 transition-colors" href="how-we-work.html">
+                        How We Work <span class="material-symbols-outlined text-sm">expand_more</span>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="areas-we-work.html" class="dropdown-item">Areas we work</a>
+                        <a href="technical-area.html" class="dropdown-item">Technical Area</a>
+                        <a href="approach.html" class="dropdown-item">Approach</a>
+                        <div class="has-sub-dropdown">
+                            <a href="projects.html" class="dropdown-item flex justify-between items-center">
+                                Project <span class="material-symbols-outlined text-sm">chevron_right</span>
+                            </a>
+                            <div class="sub-dropdown-menu">
+                                <a href="current-projects.html" class="dropdown-item">Current Project</a>
+                                <a href="past-projects.html" class="dropdown-item">Past Projects</a>
+                            </div>
+                        </div>
+                        <a href="strategic-plan.html" class="dropdown-item">Our Strategic Plan</a>
+                        <a href="impact.html" class="dropdown-item">Impact</a>
+                        <a href="advocacy.html" class="dropdown-item">Advocacy</a>
+                    </div>
+                </div>
+
+                <div class="nav-item group">
+                    <a class="text-on-surface-variant hover:text-primary font-body-md text-body-md flex items-center gap-1 transition-colors" href="media.html">
+                        Media Centre <span class="material-symbols-outlined text-sm">expand_more</span>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="news.html" class="dropdown-item">News</a>
+                        <a href="newsletter.html" class="dropdown-item">News Letter</a>
+                        <a href="stories.html" class="dropdown-item">Success Stories &amp; Achievers:</a>
+                        <a href="press.html" class="dropdown-item">Press Release</a>
+                        <a href="social.html" class="dropdown-item">Social Media Integration</a>
+                        <a href="gallery.html" class="dropdown-item">Gallery</a>
+                    </div>
+                </div>
+
+                <div class="nav-item group">
+                    <a class="text-on-surface-variant hover:text-primary font-body-md text-body-md flex items-center gap-1 transition-colors" href="resources.html">
+                        Resources <span class="material-symbols-outlined text-sm">expand_more</span>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="reports.html" class="dropdown-item">Reports</a>
+                        <a href="infographics.html" class="dropdown-item">Infographics</a>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="flex items-center gap-4">
+                <a href="donate.html" class="bg-primary text-on-primary px-6 py-2 rounded-full font-label-md text-label-md hover:opacity-90 transition-all shadow-sm text-center">Donate</a>
+                <!-- Mobile Menu Button -->
+                <button id="menu-btn" class="md:hidden text-primary p-2" aria-label="Open navigation menu">
+                    <span class="material-symbols-outlined text-3xl">menu</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Overlay -->
+        <div id="mobile-menu" class="fixed inset-0 bg-white z-[100] md:hidden mobile-nav-transition flex flex-col p-6 overflow-y-auto">
+            <div class="flex justify-between items-center mb-6">
+                <a href="index.html" class="inline-flex items-center"><img src="assets/images/GAF-logo.png" alt="Girls Advancement Foundation logo" class="h-16 w-auto" /></a>
+                <button id="close-btn" class="text-primary p-2" aria-label="Close navigation menu">
+                    <span class="material-symbols-outlined text-3xl">close</span>
+                </button>
+            </div>
+            <nav class="flex flex-col">
+                <div class="mobile-section">
+                    <div class="flex items-center border-b border-outline-variant/20">
+                        <a class="text-xl font-bold text-on-surface flex-1 py-3" href="index.html">Home</a>
+                        <button class="mobile-toggle p-2 text-primary" type="button" aria-label="Expand Home menu">
+                            <span class="material-symbols-outlined mobile-icon">expand_more</span>
+                        </button>
+                    </div>
+                    <div class="mobile-sub">
+                        <a class="text-on-surface-variant py-1" href="board.html">Board members</a>
+                        <a class="text-on-surface-variant py-1" href="team.html">Team</a>
+                        <a class="text-on-surface-variant py-1" href="staff-portal.html">Staff Portal</a>
+                        <a class="text-on-surface-variant py-1" href="faqs.html">Career/Volunteer FAQs</a>
+                        <a class="text-on-surface-variant py-1" href="contact.html">Contact Us</a>
+                    </div>
+                </div>
+                <div class="mobile-section">
+                    <div class="flex items-center border-b border-outline-variant/20">
+                        <a class="text-xl font-bold text-on-surface flex-1 py-3" href="about.html">About Us</a>
+                        <button class="mobile-toggle p-2 text-primary" type="button" aria-label="Expand About Us menu">
+                            <span class="material-symbols-outlined mobile-icon">expand_more</span>
+                        </button>
+                    </div>
+                    <div class="mobile-sub">
+                        <a class="text-on-surface-variant py-1" href="who-we-are.html">Who we are</a>
+                        <a class="text-on-surface-variant py-1" href="vision.html">Vision</a>
+                        <a class="text-on-surface-variant py-1" href="mission.html">Mission</a>
+                        <a class="text-on-surface-variant py-1" href="values.html">Core values</a>                        <a class="text-on-surface-variant py-1" href="partners.html">Partners</a>
+                    </div>
+                </div>
+                <a class="flex items-center text-xl font-bold text-on-surface py-3 border-b border-outline-variant/20" href="where-we-work.html">Where We Work</a>
+                <div class="mobile-section">
+                    <div class="flex items-center border-b border-outline-variant/20">
+                        <a class="text-xl font-bold text-on-surface flex-1 py-3" href="how-we-work.html">How We Work</a>
+                        <button class="mobile-toggle p-2 text-primary" type="button" aria-label="Expand How We Work menu">
+                            <span class="material-symbols-outlined mobile-icon">expand_more</span>
+                        </button>
+                    </div>
+                    <div class="mobile-sub">
+                        <a class="text-on-surface-variant py-1" href="areas-we-work.html">Areas we work</a>
+                        <a class="text-on-surface-variant py-1" href="technical-area.html">Technical Area</a>
+                        <a class="text-on-surface-variant py-1" href="approach.html">Approach</a>
+                        <div class="mobile-section">
+                            <div class="flex items-center">
+                                <a class="text-on-surface-variant flex-1 py-1" href="projects.html">Project</a>
+                                <button class="mobile-toggle p-1 text-primary" type="button" aria-label="Expand Project menu">
+                                    <span class="material-symbols-outlined mobile-icon text-sm">expand_more</span>
+                                </button>
+                            </div>
+                            <div class="mobile-sub" style="border-left-color:rgba(67,16,107,0.1);">
+                                <a class="text-on-surface-variant/80 py-1" href="current-projects.html">Current Project</a>
+                                <a class="text-on-surface-variant/80 py-1" href="past-projects.html">Past Projects</a>
+                            </div>
+                        </div>
+                        <a class="text-on-surface-variant py-1" href="strategic-plan.html">Our Strategic Plan</a>
+                        <a class="text-on-surface-variant py-1" href="impact.html">Impact</a>
+                        <a class="text-on-surface-variant py-1" href="advocacy.html">Advocacy</a>
+                    </div>
+                </div>
+                <div class="mobile-section">
+                    <div class="flex items-center border-b border-outline-variant/20">
+                        <a class="text-xl font-bold text-on-surface flex-1 py-3" href="media.html">Media Centre</a>
+                        <button class="mobile-toggle p-2 text-primary" type="button" aria-label="Expand Media Centre menu">
+                            <span class="material-symbols-outlined mobile-icon">expand_more</span>
+                        </button>
+                    </div>
+                    <div class="mobile-sub">
+                        <a class="text-on-surface-variant py-1" href="news.html">News</a>
+                        <a class="text-on-surface-variant py-1" href="newsletter.html">News Letter</a>
+                        <a class="text-on-surface-variant py-1" href="stories.html">Success Stories &amp; Achievers:</a>
+                        <a class="text-on-surface-variant py-1" href="press.html">Press Release</a>
+                        <a class="text-on-surface-variant py-1" href="social.html">Social Media</a>
+                        <a class="text-on-surface-variant py-1" href="gallery.html">Gallery</a>
+                    </div>
+                </div>
+                <div class="mobile-section">
+                    <div class="flex items-center border-b border-outline-variant/20">
+                        <a class="text-xl font-bold text-on-surface flex-1 py-3" href="resources.html">Resources</a>
+                        <button class="mobile-toggle p-2 text-primary" type="button" aria-label="Expand Resources menu">
+                            <span class="material-symbols-outlined mobile-icon">expand_more</span>
+                        </button>
+                    </div>
+                    <div class="mobile-sub">
+                        <a class="text-on-surface-variant py-1" href="reports.html">Reports</a>
+                        <a class="text-on-surface-variant py-1" href="infographics.html">Infographics</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="mt-8 pb-8">
+                <a href="donate.html" class="w-full bg-primary text-on-primary py-4 rounded-xl font-bold text-lg inline-block text-center">
+                    Donate Now
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- Featured Projects Section -->
+    <section class="py-12 md:py-section-padding px-4 md:px-margin-desktop">
+        <div class="max-w-container-max mx-auto">
+            <div class="flex justify-between items-end mb-stack-lg">
+                <div>
+                    <span class="text-secondary font-label-sm text-label-sm tracking-widest uppercase">Direct
+                        Impact</span>
+                    <h2 class="font-headline-lg text-headline-lg text-primary mt-2">Featured Projects</h2>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+                <!-- Project Card 1 -->
+                <div
+                    class="bg-surface-container-lowest rounded-xl shadow-soft overflow-hidden flex flex-col hover:translate-y-[-4px] transition-transform duration-300">
+                    <div class="h-64 relative">
+                        <img class="w-full h-full object-cover"
+                            data-alt="A group of young Nigerian women engaged in a focused classroom setting, learning digital literacy on modern laptops. The lighting is warm and natural, streaming through large windows, creating an atmosphere of concentrated growth and empowerment. The color palette features soft purples and greens, reflecting a professional yet hopeful educational environment."
+                            src="assets/images/image-2.jpg" />
+                        <div
+                            class="absolute top-4 right-4 bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full font-label-sm text-label-sm">
+                            Ongoing
+                        </div>
+                    </div>
+                    <div class="p-stack-md flex-grow flex flex-col">
+                        <h3 class="font-headline-md text-headline-md text-on-surface mb-2">The STEM-Girl Initiative</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant mb-stack-md flex-grow">
+                            Equipping 5,000 girls in Northern Nigeria with digital literacy, coding skills, and
+                            mentorship to bridge the gender gap in technology.
+                        </p>
+                        <div
+                            class="bg-surface-container-low p-4 rounded-lg flex justify-between items-center mb-stack-md">
+                            <div>
+                                <span class="block font-label-sm text-label-sm text-on-surface-variant">Reach</span>
+                                <span class="font-headline-md text-headline-md text-primary">5.2k+</span>
+                            </div>
+                            <div>
+                                <span class="block font-label-sm text-label-sm text-on-surface-variant">Success</span>
+                                <span class="font-headline-md text-headline-md text-secondary">92%</span>
+                            </div>
+                        </div>
+                        <button
+                            class="w-full border-2 border-secondary text-secondary font-label-md text-label-md py-3 rounded-full hover:bg-secondary-container transition-colors">
+                            View Case Study
+                        </button>
+                    </div>
+                </div>
+                <!-- Project Card 2 -->
+                <div
+                    class="bg-surface-container-lowest rounded-xl shadow-soft overflow-hidden flex flex-col hover:translate-y-[-4px] transition-transform duration-300">
+                    <div class="h-64 relative">
+                        <img class="w-full h-full object-cover"
+                            data-alt="A healthcare professional in a clean, modern community clinic in Abuja, talking gently to a young girl. The environment is sterile yet welcoming, with soft daylight and brand-consistent purple accents in the decor. The mood is one of trust and medical reliability, emphasizing health advocacy and safety for young women."
+                            src="assets/images/image-3.jpg" />
+                        <div
+                            class="absolute top-4 right-4 bg-primary-fixed text-on-primary-fixed px-3 py-1 rounded-full font-label-sm text-label-sm">
+                            Completed
+                        </div>
+                    </div>
+                    <div class="p-stack-md flex-grow flex flex-col">
+                        <h3 class="font-headline-md text-headline-md text-on-surface mb-2">Health Rights Access</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant mb-stack-md flex-grow">
+                            A nationwide campaign that established mobile health units and provided reproductive health
+                            education to over 10,000 adolescent girls.
+                        </p>
+                        <div
+                            class="bg-surface-container-low p-4 rounded-lg flex justify-between items-center mb-stack-md">
+                            <div>
+                                <span class="block font-label-sm text-label-sm text-on-surface-variant">Villages</span>
+                                <span class="font-headline-md text-headline-md text-primary">145</span>
+                            </div>
+                            <div>
+                                <span class="block font-label-sm text-label-sm text-on-surface-variant">Growth</span>
+                                <span class="font-headline-md text-headline-md text-secondary">300%</span>
+                            </div>
+                        </div>
+                        <button
+                            class="w-full border-2 border-secondary text-secondary font-label-md text-label-md py-3 rounded-full hover:bg-secondary-container transition-colors">
+                            Impact Report
+                        </button>
+                    </div>
+                </div>
+                <!-- Project Card 3 -->
+                <div
+                    class="bg-surface-container-lowest rounded-xl shadow-soft overflow-hidden flex flex-col hover:translate-y-[-4px] transition-transform duration-300">
+                    <div class="h-64 relative">
+                        <img class="w-full h-full object-cover"
+                            data-alt="Close up of a wooden gavel resting on a desk next to legal documents, with a softly blurred background showing a modern office interior. The image conveys authority, law, and justice. The lighting is crisp and professional, using high-key tones to maintain a light-mode NGO aesthetic focused on policy and advocacy."
+                            src="assets/images/image-4.jpg" />
+                        <div
+                            class="absolute top-4 right-4 bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full font-label-sm text-label-sm">
+                            Ongoing
+                        </div>
+                    </div>
+                    <div class="p-stack-md flex-grow flex flex-col">
+                        <h3 class="font-headline-md text-headline-md text-on-surface mb-2">Justice for Girls Policy</h3>
+                        <p class="font-body-md text-body-md text-on-surface-variant mb-stack-md flex-grow">
+                            Working with federal lawmakers to strengthen legislation against child marriage and ensure
+                            mandatory secondary education for girls.
+                        </p>
+                        <div
+                            class="bg-surface-container-low p-4 rounded-lg flex justify-between items-center mb-stack-md">
+                            <div>
+                                <span class="block font-label-sm text-label-sm text-on-surface-variant">Petitions</span>
+                                <span class="font-headline-md text-headline-md text-primary">25k</span>
+                            </div>
+                            <div>
+                                <span class="block font-label-sm text-label-sm text-on-surface-variant">States</span>
+                                <span class="font-headline-md text-headline-md text-secondary">18</span>
+                            </div>
+                        </div>
+                        <button
+                            class="w-full border-2 border-secondary text-secondary font-label-md text-label-md py-3 rounded-full hover:bg-secondary-container transition-colors">
+                            Our Advocacy
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Practice Areas Section -->
+    <section class="bg-primary py-12 md:py-section-padding px-4 md:px-margin-desktop overflow-hidden">
+        <div class="max-w-container-max mx-auto">
+            <div class="text-center mb-stack-lg">
+                <span class="text-secondary-fixed font-label-sm text-label-sm tracking-widest uppercase">Expertise &amp;
+                    Capacity</span>
+                <h2 class="font-headline-lg text-headline-lg text-surface-bright mt-2">Our Practice Areas</h2>
+                <p class="font-body-md text-body-md text-primary-fixed mt-4 max-w-xl mx-auto">
+                    We provide high-level technical expertise to governments and organizations to ensure humanitarian
+                    efforts are gender-responsive and impactful.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+                <!-- Training -->
+                <div
+                    class="bg-primary-container p-stack-lg rounded-xl border border-on-primary-container/20 group hover:bg-white/10 transition-colors">
+                    <div class="w-16 h-16 bg-secondary-container rounded-lg flex items-center justify-center mb-6">
+                        <span class="material-symbols-outlined text-primary text-3xl">school</span>
+                    </div>
+                    <h3 class="font-headline-md text-headline-md text-surface-bright mb-4">Training &amp; Capacity
+                        Building</h3>
+                    <p class="font-body-md text-body-md text-primary-fixed">
+                        Empowering girls and women with knowledge, skills, and opportunities to become self-reliant.
+                    </p>
+                </div>
+                <!-- Technical Assistance -->
+                <div
+                    class="bg-primary-container p-stack-lg rounded-xl border border-on-primary-container/20 group hover:bg-white/10 transition-colors">
+                    <div class="w-16 h-16 bg-secondary-container rounded-lg flex items-center justify-center mb-6">
+                        <span class="material-symbols-outlined text-primary text-3xl">settings_suggest</span>
+                    </div>
+                    <h3 class="font-headline-md text-headline-md text-surface-bright mb-4">Technical Assistance</h3>
+                    <p class="font-body-md text-body-md text-primary-fixed">
+                        Providing specialized support to government structures and partners on child protection and vulnerability.
+                    </p>
+                </div>
+                <!-- Stakeholder Engagement -->
+                <div
+                    class="bg-primary-container p-stack-lg rounded-xl border border-on-primary-container/20 group hover:bg-white/10 transition-colors">
+                    <div class="w-16 h-16 bg-secondary-container rounded-lg flex items-center justify-center mb-6">
+                        <span class="material-symbols-outlined text-primary text-3xl">groups</span>
+                    </div>
+                    <h3 class="font-headline-md text-headline-md text-surface-bright mb-4">Stakeholder Engagement</h3>
+                    <p class="font-body-md text-body-md text-primary-fixed">
+                        Sensitizing and informing communities on the importance of protecting and empowering the girl child.
+                    </p>
+                </div>
+                <!-- Partnerships -->
+                <div
+                    class="bg-primary-container p-stack-lg rounded-xl border border-on-primary-container/20 group hover:bg-white/10 transition-colors">
+                    <div class="w-16 h-16 bg-secondary-container rounded-lg flex items-center justify-center mb-6">
+                        <span class="material-symbols-outlined text-primary text-3xl">handshake</span>
+                    </div>
+                    <h3 class="font-headline-md text-headline-md text-surface-bright mb-4">Partnerships</h3>
+                    <p class="font-body-md text-body-md text-primary-fixed">
+                        Collaborating with government and non-government structures to scale our impact nationwide.
+                    </p>
+                </div>
+                <!-- M&E -->
+                <div
+                    class="bg-primary-container p-stack-lg rounded-xl border border-on-primary-container/20 group hover:bg-white/10 transition-colors">
+                    <div class="w-16 h-16 bg-secondary-container rounded-lg flex items-center justify-center mb-6">
+                        <span class="material-symbols-outlined text-primary text-3xl">monitoring</span>
+                    </div>
+                    <h3 class="font-headline-md text-headline-md text-surface-bright mb-4">Monitoring &amp; Evaluation</h3>
+                    <p class="font-body-md text-body-md text-primary-fixed">
+                        Ensuring accountability and measuring the long-term impact of our community-driven projects.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Success CTA Section -->
+    <section class="py-12 md:py-section-padding px-4 md:px-margin-desktop bg-surface-container-high">
+        <div class="max-w-container-max mx-auto text-center">
+            <h2 class="font-headline-xl text-headline-xl text-primary mb-6">Partner With Us for Impact</h2>
+            <p class="font-body-lg text-body-lg text-on-surface-variant mb-stack-lg max-w-2xl mx-auto">
+                Whether you're a donor looking to fund specific projects or an organization needing technical
+                assistance, let's work together to change lives.
+            </p>
+            <div class="flex flex-col md:flex-row gap-gutter justify-center">
+                <button
+                    class="bg-primary text-on-primary px-10 py-4 rounded-full font-label-md text-label-md shadow-lg hover:opacity-90 transition-all">
+                    Start a Collaboration
+                </button>
+                <button
+                    class="bg-white border-2 border-secondary text-secondary px-10 py-4 rounded-full font-label-md text-label-md hover:bg-secondary-container transition-all">
+                    Download Annual Report
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+        <!-- Footer -->
+        <!-- Footer -->
+    <footer class="bg-inverse-surface dark:bg-surface-container-lowest w-full py-12 md:py-section-padding border-t border-outline-variant transition-all duration-200">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-4 md:px-margin-desktop max-w-container-max mx-auto">
+            <div class="col-span-1 md:col-span-1">
+                <div class="mb-6"><img src="assets/images/GAF-logo.png" alt="Girls Advancement Foundation logo" class="h-20 w-auto" /></div>
+                <p class="font-body-md text-body-md text-surface-dim dark:text-on-surface-variant pr-4">Advancing the rights and potential of girls across Africa through education and empowerment.</p>
+            </div>
+            <div>
+                <h4 class="font-bold text-white mb-6">Quick Links</h4>
+                <ul class="space-y-4">
+                    <li><a class="text-surface-dim dark:text-on-surface-variant hover:text-secondary-fixed transition-colors font-body-md text-body-md" href="about.html">About Us</a></li>
+                    <li><a class="text-surface-dim dark:text-on-surface-variant hover:text-secondary-fixed transition-colors font-body-md text-body-md" href="get-involved.html">Get Involved</a></li>
+                    <li><a class="text-surface-dim dark:text-on-surface-variant hover:text-secondary-fixed transition-colors font-body-md text-body-md" href="faqs.html">FAQ</a></li>
+                    <li><a class="text-surface-dim dark:text-on-surface-variant hover:text-secondary-fixed transition-colors font-body-md text-body-md" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold text-white mb-6">Our Impact</h4>
+                <ul class="space-y-4">
+                    <li><a class="text-surface-dim dark:text-on-surface-variant hover:text-secondary-fixed transition-colors font-body-md text-body-md" href="donate.html">Donate</a></li>
+                    <li><a class="text-surface-dim dark:text-on-surface-variant hover:text-secondary-fixed transition-colors font-body-md text-body-md" href="areas-we-work.html">Areas We Work</a></li>
+                    <li><a class="text-surface-dim dark:text-on-surface-variant hover:text-secondary-fixed transition-colors font-body-md text-body-md" href="projects.html">Projects</a></li>
+                    <li><a class="text-surface-dim dark:text-on-surface-variant hover:text-secondary-fixed transition-colors font-body-md text-body-md" href="advocacy.html">Advocacy Hub</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold text-white mb-6">Connect</h4>
+                <div class="flex gap-4 mb-6">
+                    <a href="https://www.facebook.com/profile.php?id=61571351900205&_rdc=5&_rdr#" class="text-on-primary-container hover:text-secondary-fixed transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" /></svg>
+                    </a>
+                    <a href="mailto:girlsadvancementfoundation@gmail.com" class="text-on-primary-container hover:text-secondary-fixed transition-colors">
+                        <span class="material-symbols-outlined">mail</span>
+                    </a>
+                </div>
+                <p class="font-body-md text-body-md text-surface-dim dark:text-on-surface-variant">House 8, Dabah Homes, Kukwaba District, Abuja. <br/> 08172379234</p>
+            </div>
+        </div>
+        <div class="px-4 md:px-margin-desktop max-w-container-max mx-auto mt-16 pt-8 border-t border-white/10">
+            <p class="font-body-md text-body-md text-surface-dim dark:text-on-surface-variant text-center">&copy; 2026 Girls Advancement Foundation. All rights reserved. <br/>House 8, Dabah Homes, Kukwaba District, Abuja | NOGALSS, NCCE, CBD, Abuja.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
